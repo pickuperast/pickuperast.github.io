@@ -16,3 +16,8 @@ function GetProgress(){
 	console.log(progres);
 	return progres;
 }
+
+function SetProgress(JSONinput){
+	console.log("Saving progress...");
+	console.log("LOG - Game send this: "+JSONinput)
+}
