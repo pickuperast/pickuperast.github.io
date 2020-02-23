@@ -19,5 +19,10 @@ function GetProgress(){
 
 function SetProgress(JSONinput){
 	console.log("Saving progress...");
-	console.log("LOG - Game send this: "+JSONinput)
+	console.log("Unity sent this: " + JSONinput);
+	var l_progress = JSONinput;
+}
+
+function ConsoleWriter(strInput){
+	console.log(strInput);
 }
